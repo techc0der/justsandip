@@ -1,16 +1,77 @@
-# React + Vite
+# 🚀 Sandip Suthar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with **React + Vite**, featuring dark/light theme toggling, scroll-reveal animations, and a clean developer-focused design.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🌓 **Dark / Light Mode** — toggle with localStorage persistence
+- 📱 **Fully Responsive** — works on mobile, tablet, and desktop
+- 🎞️ **Scroll Reveal Animations** — sections animate in as you scroll
+- 📊 **GitHub Contribution Graph** — visual activity heatmap
+- 📬 **Contact Form** — clean form with validation
+- ⚡ **Fast** — powered by Vite for instant HMR and optimized builds
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Category | Technologies |
+|----------|-------------|
+| Frontend | React, JavaScript, CSS3 |
+| Build | Vite |
+| Deployment | GitHub Pages / Vercel / Netlify |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx / .css
+│   ├── Hero.jsx / .css
+│   ├── About.jsx / .css
+│   ├── GitHubGraph.jsx / .css
+│   ├── Skills.jsx / .css
+│   ├── Projects.jsx / .css
+│   ├── Experience.jsx / .css
+│   ├── Contact.jsx / .css
+│   └── Footer.jsx / .css
+├── context/
+│   └── ThemeContext.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/techc0der/justsandip.git
+cd justsandip
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 📬 Contact
+
+- **Email**: sandipsuthar086@gmail.com
+- **LinkedIn**: [sandip-suthar](https://www.linkedin.com/in/sandip-suthar-b1b42b232)
+- **GitHub**: [techc0der](https://github.com/techc0der)
+- **LeetCode**: [techc0der](https://leetcode.com/u/techc0der/)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">Crafted with ❤️ by Sandip Suthar</p>
