@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import './Hero.css';
 
 export default function Hero() {
+    const [hovered, setHovered] = useState(false);
     return (
         <section className="hero" id="hero">
             <div className="hero-content">
@@ -45,8 +47,15 @@ export default function Hero() {
                 </div>
             </div>
             <div className="hero-image">
-                <div className="hero-avatar">
-                    <img src="/sandipPhoto.png" alt="Sandip Suthar" className="avatar-img" />
+                <div className={`hero-avatar${hovered ? ' hovered' : ''}`}>
+                    <img
+                        src="/sandipPhoto.png"
+                        alt="Sandip Suthar"
+                        className="avatar-img avatar-bw"
+                        onMouseEnter={() => setHovered(true)}
+                        onMouseLeave={() => setHovered(false)}
+                    />
+                    <img src="/sandipPhotoColor.png" alt="Sandip Suthar" className="avatar-img avatar-color" />
                 </div>
             </div>
         </section>
